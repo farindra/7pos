@@ -25,14 +25,27 @@ Route::controllers([
    'password' => 'Auth\PasswordController',
 ]);
 
+//API Route
+Route::group(['prefix'=>'/api'],function(){
+	 //angular route
+	Route::post('login/auth','AuthController@Login');
+	Route::get('login/destroy','AuthController@Logout');
+});
+
+
 
 //-----------------MASTER ROUTE---------------END
 
+
+
 //-----------------ADMIN ROUTE ---------------BEGIN
-Route::get('admin', ['middleware' => 'auth',  function () {
+/*Route::get('admin', ['middleware' => 'auth',  function () {
     return view('admin');
 }]);
-
+*/
+Route::get('admin',  function () {
+    return View::make('admin');
+});
 
 //-----------------ADMIN ROUTE ---------------END
 
