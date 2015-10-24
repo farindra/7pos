@@ -14,7 +14,7 @@
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ asset("/core/assets/ico/apple-touch-icon-114-precomposed.png") }}">
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ asset("/core/assets/ico/apple-touch-icon-72-precomposed.png") }}">
 <link rel="apple-touch-icon-precomposed" href="{{ asset("/core/assets/ico/apple-touch-icon-57-precomposed.png") }}">
-<link rel="shortcut icon" href="assets/ico/favicon.ico">
+<link rel="shortcut icon" href="{{ asset("/core/assets/ico/favicon.ico") }}">
 
 <!-- CSS Stylesheet-->
 <link type="text/css" rel="stylesheet" href="{{ asset("/core/assets/css/bootstrap/bootstrap.min.css") }}" />
@@ -56,7 +56,7 @@
 						
 								<span class="easy-chart avatar-chart" data-color="theme-inverse" data-percent="69" data-track-color="rgba(255,255,255,0.1)" data-line-width="5" data-size="118">
 										<span class="percent"></span>
-										<img alt="" src="assets/img/avatar.png" class="circle">
+										<img alt="" src="{{ asset("/core/assets/img/avatar.png") }}" class="circle">
 								</span>
 								<!-- //avatar-chart-->
 								
@@ -385,77 +385,77 @@
 																		</thead>
 																		<tbody align="center">
 																				<tr >
-																						<td><img src="assets/img/avatar.png" alt="" class="img-circle avatar-mini"></td>
+																						<td><img src="{{ asset("/core/assets/img/avatar.png") }}" alt="" class="img-circle avatar-mini"></td>
 																						<td> Mark Nilson </td>
 																						<td> makr124 </td>
 																						<td><span class="label label-sm bg-theme-inverse"> Approved </span></td>
 																						<td><a class="btn btn-inverse btn-sm" href="#"><i class="fa fa-pencil"></a></td>
 																				</tr>
 																				<tr>
-																						<td><img src="assets/img/avatar2.png" alt="" class="img-circle avatar-mini"></td>
+																						<td><img src="{{ asset("/core/assets/img/avatar2.png") }}" alt="" class="img-circle avatar-mini"></td>
 																						<td> Filip Rolton </td>
 																						<td> jac123 </td>
 																						<td><span class="label label-sm bg-darkorange"> Pending </span></td>
 																						<td><a class="btn btn-inverse btn-sm" href="#"><i class="fa fa-pencil"></a></td>
 																				</tr>
 																				<tr>
-																						<td><img src="assets/img/avatar3.png" alt="" class="img-circle avatar-mini"></td>
+																						<td><img src="{{ asset("/core/assets/img/avatar3.png") }}" alt="" class="img-circle avatar-mini"></td>
 																						<td> Colin Fox </td>
 																						<td> col </td>
 																						<td><span class="label label-sm bg-theme"> Blocked </span</td>
 																						<td><a class="btn btn-inverse btn-sm" href="#"><i class="fa fa-pencil"></a></td>
 																				</tr>
 																				<tr>
-																						<td><img src="assets/img/avatar.png" alt="" class="img-circle avatar-mini"></td>
+																						<td><img src="{{ asset("/core/assets/img/avatar.png") }}" alt="" class="img-circle avatar-mini"></td>
 																						<td> Nick Stone </td>
 																						<td> sanlim </td>
 																						<td><span class="label label-sm bg-theme-inverse"> Approved </span></td>
 																						<td><a class="btn btn-inverse btn-sm" href="#"><i class="fa fa-pencil"></a></td>
 																				</tr>
 																				<tr>
-																						<td><img src="assets/img/avatar5.png" alt="" class="img-circle avatar-mini"></td>
+																						<td><img src="{{ asset("/core/assets/img/avatar5.png") }}" alt="" class="img-circle avatar-mini"></td>
 																						<td> Edward Cook </td>
 																						<td> sanlim </td>
 																						<td><span class="label label-sm bg-theme"> Blocked </span</td>
 																						<td><a class="btn btn-inverse btn-sm" href="#"><i class="fa fa-pencil"></a></td>
 																				</tr>
 																				<tr>
-																						<td><img src="assets/img/avatar.png" alt="" class="img-circle avatar-mini"></td>
+																						<td><img src="{{ asset("/core/assets/img/avatar.png") }}" alt="" class="img-circle avatar-mini"></td>
 																						<td> Nick Stone </td>
 																						<td> sanlim </td>
 																						<td><span class="label label-sm bg-theme"> Blocked </span></td>
 																						<td><a class="btn btn-inverse btn-sm" href="#"><i class="fa fa-pencil"></a></td>
 																				</tr>
 																				<tr>
-																						<td><img src="assets/img/avatar6.png" alt="" class="img-circle avatar-mini"></td>
+																						<td><img src="{{ asset("/core/assets/img/avatar6.png") }}" alt="" class="img-circle avatar-mini"></td>
 																						<td> Elis Lim </td>
 																						<td> makr124 </td>
 																						<td><span class="label label-sm bg-theme-inverse"> Approved </span></td>
 																						<td><a class="btn btn-inverse btn-sm" href="#"><i class="fa fa-pencil"></a></td>
 																				</tr>
 																				<tr>
-																						<td><img src="assets/img/avatar2.png" alt="" class="img-circle avatar-mini"></td>
+																						<td><img src="{{ asset("/core/assets/img/avatar2.png") }}" alt="" class="img-circle avatar-mini"></td>
 																						<td> King Paul </td>
 																						<td> king123 </td>
 																						<td><span class="label label-sm bg-info"> Pending </span></td>
 																						<td><a class="btn btn-inverse btn-sm" href="#"><i class="fa fa-pencil"></a></td>
 																				</tr>
 																				<tr>
-																						<td><img src="assets/img/avatar3.png" alt="" class="img-circle avatar-mini"></td>
+																						<td><img src="{{ asset("/core/assets/img/avatar3.png") }}" alt="" class="img-circle avatar-mini"></td>
 																						<td> Filip Larson </td>
 																						<td> fil </td>
 																						<td><span class="label label-sm bg-theme-inverse"> Approved </span></td>
 																						<td><a class="btn btn-inverse btn-sm" href="#"><i class="fa fa-pencil"></a></td>
 																				</tr>
 																				<tr>
-																						<td><img src="assets/img/avatar4.png" alt="" class="img-circle avatar-mini"></td>
+																						<td><img src="{{ asset("/core/assets/img/avatar4.png") }}" alt="" class="img-circle avatar-mini"></td>
 																						<td> Martin Larson </td>
 																						<td> larson12 </td>
 																						<td><span class="label label-sm bg-theme"> Blocked </span></td>
 																						<td><a class="btn btn-inverse btn-sm" href="#"><i class="fa fa-pencil"></a></td>
 																				</tr>
 																				<tr>
-																						<td><img src="assets/img/avatar5.png" alt="" class="img-circle avatar-mini"></td>
+																						<td><img src="{{ asset("/core/assets/img/avatar5.png") }}" alt="" class="img-circle avatar-mini"></td>
 																						<td> King Paul </td>
 																						<td> sanlim </td>
 																						<td><span class="label label-sm bg-theme"> Blocked </span></td>
@@ -558,14 +558,14 @@
 												<div class="widget-friend clearfix">
 														<ul class="circle clearfix">
 																<li>548 Follower Friends</li>
-																<li class="online" title="zicdemo"><img alt="" src="assets/img/avatar.png"></li>
-																<li class="online"><img alt="" src="assets/img/avatar2.png"></li>
-																<li><img alt="" src="assets/img/avatar3.png"></li>
-																<li class="online"><img alt="" src="assets/img/avatar4.png"></li>
-																<li ><img alt="" src="assets/img/avatar5.png"></li>
-																<li class="busy"><img alt="" src="assets/img/avatar6.png"></li>
-																<li class="online"><img alt="" src="assets/photos_preview/50/people/1.jpg"></li>
-																<li class="online"><img alt="" src="assets/photos_preview/50/people/2.jpg"></li>
+																<li class="online" title="zicdemo"><img alt="" src="{{ asset("/core/assets/img/avatar.png") }}"></li>
+																<li class="online"><img alt="" src="{{ asset("/core/assets/img/avatar2.png") }}"></li>
+																<li><img alt="" src="{{ asset("/core/assets/img/avatar3.png") }}"></li>
+																<li class="online"><img alt="" src="{{ asset("/core/assets/img/avatar4.png") }}"></li>
+																<li ><img alt="" src="{{ asset("/core/assets/img/avatar5.png") }}"></li>
+																<li class="busy"><img alt="" src="{{ asset("/core/assets/img/avatar6.png") }}"></li>
+																<li class="online"><img alt="" src="{{ asset("/core/assets/photos_preview/50/people/1.jpg") }}"></li>
+																<li class="online"><img alt="" src="{{ asset("/core/assets/photos_preview/50/people/2.jpg") }}"></li>
 																<li><a href="#"><i class="fa fa-plus"></i></a></li>
 														</ul>
 												</div>
@@ -576,9 +576,9 @@
 										
 										<section class="panel bg-inverse">
 													<div id="owl-demo" class="owl-carousel carousel-white overflow">
-															<div><img src="assets/photos_preview/thumbs/video.jpg" class="img-responsive"  alt=" "></div>
-															<div><img src="assets/photos_preview/thumbs/3.jpg" class="img-responsive" alt=" "></div>
-															<div><img src="assets/photos_preview/thumbs/1.jpg" class="img-responsive" alt=" "></div>
+															<div><img src="{{ asset("/core/assets/photos_preview/thumbs/video.jpg") }}" class="img-responsive"  alt=" "></div>
+															<div><img src="{{ asset("/core/assets/photos_preview/thumbs/3.jpg") }}" class="img-responsive" alt=" "></div>
+															<div><img src="{{ asset("/core/assets/photos_preview/thumbs/1.jpg") }}" class="img-responsive" alt=" "></div>
 													</div>
 										</section>	
 										
@@ -644,7 +644,7 @@
 														</div>
 														<h4><a href="javascript:void(0)">Edlado Holder</a>
 														</h4>
-														<div class="im-thumbnail"><img alt="" src="assets/img/avatar2.png" /></div>
+														<div class="im-thumbnail"><img alt="" src="{{ asset("/core/assets/img/avatar2.png") }}" /></div>
 														<label></label>
 														<div class="pre-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
 												</section>
@@ -692,7 +692,7 @@
 														</div>
 														<h4><a href="javascript:void(0)">Cinda Collar</a>
 														</h4>
-														<div class="im-thumbnail"><img alt="" src="assets/img/avatar.png" /></div>
+														<div class="im-thumbnail"><img alt="" src="{{ asset("/core/assets/img/avatar.png") }}" /></div>
 														<label data-color="theme"></label>
 														<div class="pre-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
 												</section>
@@ -957,79 +957,79 @@
 										<li class="Label">A</li>
 										<li class="img">
 												<a href="#" class="online">
-														<img alt="" src="assets/photos_preview/50/people/1.jpg" /> Alexa 
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/1.jpg") }}" /> Alexa 
 														<small>Johnson</small>
 												</a>
 										</li>
 										<li class="img">
 												<a href="#" class="busy">
-														<img alt="" src="assets/photos_preview/50/people/2.jpg" /> Alexander 
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/2.jpg") }}" /> Alexander 
 														<small>Brown</small>
 												</a>
 										</li>
 										<li class="Label">F</li>
 										<li class="img">
 												<a href="#">
-														<img alt="" src="assets/photos_preview/50/people/3.jpg" /> Fred
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/3.jpg") }}" /> Fred
 														<small>Smith</small>
 												</a>
 										</li>
 										<li class="Label">J</li>
 										<li class="img">
 												<a href="#">
-														<img alt="" src="assets/photos_preview/50/people/4.jpg" /> James
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/4.jpg") }}" /> James
 														<small>Miller</small>
 												</a>
 										</li>
 										<li class="img">
 												<a href="#">
-														<img alt="" src="assets/photos_preview/50/people/5.jpg" /> Jefferson
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/5.jpg") }}" /> Jefferson
 														<small>Jackson</small>
 												</a>
 										</li>
 										<li class="img">
 												<a href="#">
-														<img alt="" src="assets/photos_preview/50/people/6.jpg" /> Jordan
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/6.jpg") }}" /> Jordan
 														<small>Lee</small>
 												</a>
 										</li>
 										<li class="Label">K</li>
 										<li class="img">
 												<a href="#" class="online">
-														<img alt="" src="assets/photos_preview/50/people/7.jpg" /> Kim
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/7.jpg") }}" /> Kim
 														<small>Adams</small>
 												</a>
 										</li>
 										<li class="Label">M</li>
 										<li class="img">
 												<a href="#">
-														<img alt="" src="assets/photos_preview/50/people/8.jpg" /> Meagan
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/8.jpg") }}" /> Meagan
 														<small>Miller</small>
 												</a>
 										</li>
 										<li class="img">
 												<a href="#" class="busy">
-														<img alt="" src="assets/photos_preview/50/people/9.jpg" /> Melissa
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/9.jpg") }}" /> Melissa
 														<small>Johnson</small>
 												</a>
 										</li>
 										<li class="Label">N</li>
 										<li class="img">
 												<a href="#" class="online">
-														<img alt="" src="assets/photos_preview/50/people/10.jpg" /> Nicole
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/10.jpg") }}" /> Nicole
 														<small>Smith</small>
 												</a>
 										</li>
 										<li class="Label">S</li>
 										<li class="img">
 												<a href="#" class="online">
-														<img alt="" src="assets/photos_preview/50/people/1.jpg" /> Samantha
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/1.jpg") }}" /> Samantha
 														<small>Harris</small>
 												</a>
 										</li>
 										<li class="img">
 												<a href="#" class="block">
-														<img alt="" src="assets/photos_preview/50/people/2.jpg" /> Scott
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/2.jpg") }}" /> Scott
 														<small>Thompson</small>
 												</a>
 										</li>
@@ -1041,66 +1041,66 @@
 										<li class="Label">A</li>
 										<li class="img">
 												<a href="#" class="busy">
-														<img alt="" src="assets/photos_preview/50/people/3.jpg" /> Adam
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/3.jpg") }}" /> Adam
 														<small>White</small>
 												</a>
 										</li>
 										<li class="Label">B</li>
 										<li class="img">
 												<a href="#" class="busy">
-														<img alt="" src="assets/photos_preview/50/people/4.jpg" /> Ben
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/4.jpg") }}" /> Ben
 														<small>Robinson</small>
 												</a>
 										</li>
 										<li class="img">
 												<a href="#">
-														<img alt="" src="assets/photos_preview/50/people/5.jpg" /> Bruce
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/5.jpg") }}" /> Bruce
 														<small>Lee</small>
 												</a>
 										</li>
 										<li class="Label">E</li>
 										<li class="img">
 												<a href="#">
-														<img alt="" src="assets/photos_preview/50/people/6.jpg" /> Eddie
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/6.jpg") }}" /> Eddie
 														<small>Williams</small>
 												</a>
 										</li>
 										<li class="Label">J</li>
 										<li class="img">
 												<a href="#" class="online">
-														<img alt="" src="assets/photos_preview/50/people/7.jpg" /> Jack
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/7.jpg") }}" /> Jack
 														<small>Johnson</small>
 												</a>
 										</li>
 										<li class="img">
 												<a href="#">
-														<img alt="" src="assets/photos_preview/50/people/8.jpg" /> John
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/8.jpg") }}" /> John
 														<small>Jackman</small>
 												</a>
 										</li>
 										<li class="Label">M</li>
 										<li class="img">
 												<a href="#">
-														<img alt="" src="assets/photos_preview/50/people/9.jpg" /> Martina
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/9.jpg") }}" /> Martina
 														<small>Thompson</small>
 												</a>
 										</li>
 										<li class="img">
 												<a href="#" class="busy">
-														<img alt="" src="assets/photos_preview/50/people/10.jpg" /> Matthew
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/10.jpg") }}" /> Matthew
 														<small>Watson</small>
 												</a>
 										</li>
 										<li class="Label">O</li>
 										<li class="img">
 												<a href="#" class="online">
-														<img alt="" src="assets/photos_preview/50/people/1.jpg" /> Olivia
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/1.jpg") }}" /> Olivia
 														<small>Taylor</small>
 												</a>
 										</li>
 										<li class="img">
 												<a href="#" class="online">
-														<img alt="" src="assets/photos_preview/50/people/2.jpg" /> Owen
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/2.jpg") }}" /> Owen
 														<small>Wilson</small>
 												</a>
 										</li>
@@ -1112,53 +1112,53 @@
 										<li class="Label">D</li>
 										<li class="img">
 												<a href="#">
-														<img alt="" src="assets/photos_preview/50/people/3.jpg" /> David
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/3.jpg") }}" /> David
 														<small>Harris</small>
 												</a>
 										</li>
 										<li class="img">
 												<a href="#">
-														<img alt="" src="assets/photos_preview/50/people/4.jpg" /> Dennis
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/4.jpg") }}" /> Dennis
 														<small>King</small>
 												</a>
 										</li>
 										<li class="Label">E</li>
 										<li class="img">
 												<a href="#" class="online">
-														<img alt="" src="assets/photos_preview/50/people/5.jpg" /> Eliza
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/5.jpg") }}" /> Eliza
 														<small>Walker</small>
 												</a>
 										</li>
 										<li class="Label">L</li>
 										<li class="img">
 												<a href="#" class="busy">
-														<img alt="" src="assets/photos_preview/50/people/6.jpg" /> Larry
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/6.jpg") }}" /> Larry
 														<small>Turner</small>
 												</a>
 										</li>
 										<li class="img">
 												<a href="#" class="online">
-														<img alt="" src="assets/photos_preview/50/people/7.jpg" /> Lisa<br />
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/7.jpg") }}" /> Lisa<br />
 														<small>Wilson</small>
 												</a>
 										</li>
 										<li class="Label">M</li>
 										<li class="img">
 												<a href="#">
-														<img alt="" src="assets/photos_preview/50/people/8.jpg" /> Michael
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/8.jpg") }}" /> Michael
 														<small>Jordan</small>
 												</a>
 										</li>
 										<li class="Label">R</li>
 										<li class="img">
 												<a href="#">
-														<img alt="" src="assets/photos_preview/50/people/9.jpg" /> Rachelle
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/9.jpg") }}" /> Rachelle
 														<small>Cooper</small>
 												</a>
 										</li>
 										<li class="img">
 												<a href="#" class="online">
-														<img alt="" src="assets/photos_preview/50/people/10.jpg" /> Rick
+														<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/10.jpg") }}" /> Rick
 														<small>James</small>
 												</a>
 										</li>
@@ -1240,31 +1240,31 @@
 						<li class="Label label-lg">Quick Friends Chat </li>
 						<li class="img">
 								<a href="#" class="online">
-										<img alt="" src="assets/photos_preview/50/people/1.jpg" /> Olivia
+										<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/1.jpg") }}" /> Olivia
 										<small>Taylor</small>
 								</a>
 						</li>
 						<li class="img">
 								<a href="#" class="online">
-										<img alt="" src="assets/photos_preview/50/people/2.jpg" /> Owen
+										<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/2.jpg") }}" /> Owen
 										<small>Wilson</small>
 								</a>
 						</li>
 						<li class="img">
 								<a href="#">
-										<img alt="" src="assets/photos_preview/50/people/8.jpg" /> Meagan
+										<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/8.jpg") }}" /> Meagan
 										<small>Miller</small>
 								</a>
 						</li>
 						<li class="img">
 								<a href="#" class="busy">
-										<img alt="" src="assets/photos_preview/50/people/9.jpg" /> Melissa
+										<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/9.jpg") }}" /> Melissa
 										<small>Johnson</small>
 								</a>
 						</li>
 						<li class="img">
 								<a href="#" class="online">
-										<img alt="" src="assets/photos_preview/50/people/5.jpg" /> Samantha
+										<img alt="" src="{{ asset("/core/assets/photos_preview/50/people/5.jpg") }}" /> Samantha
 										<small>Harris</small>
 								</a>
 						</li>
@@ -1295,6 +1295,8 @@
 <!-- Jquery Library -->
 <script type="text/javascript" src="{{ asset("/core/assets/js/jquery.min.js") }}"></script>
 <script type="text/javascript" src="{{ asset("/core/assets/js/jquery.ui.min.js") }}"></script>
+<script type="text/javascript" src="{{ asset("/core/assets/plugins/angular/angular.js") }}"></script>
+<script type="text/javascript" src="{{ asset("/core/assets/plugins/angular/angular-route.js") }}"></script>
 <script type="text/javascript" src="{{ asset("/core/assets/plugins/bootstrap/bootstrap.min.js") }}"></script>
 <!-- Modernizr Library For HTML5 And CSS3 -->
 <script type="text/javascript" src="{{ asset("/core/assets/js/modernizr/modernizr.js") }}"></script>
@@ -1347,9 +1349,9 @@
 			autoHeight : true,
 			transitionStyle:"fade"
 		});
-		$('table[data-provide="data-table"]').dataTable({
+		/*$('table[data-provide="data-table"]').dataTable({
 			"iDisplayLength": 5
-		});
+		});*/
 	});
 </script>
 </body>

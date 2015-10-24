@@ -23,6 +23,15 @@ class AuthController extends Controller
 
     use AuthenticatesAndRegistersUsers, ThrottlesLogins;
 
+    // jika setingan tidak berhasil coba jalankan -> "php artisan route:clear"
+    //->add:redirectTo path:
+    protected $redirectTo = '/admin';
+
+    //->add:redirectTo path:
+    protected $loginPath = '/login';
+    //->add:login maksimal:
+    //private $maxLoginAttempts = 5;
+
     /**
      * Create a new authentication controller instance.
      *
@@ -31,6 +40,7 @@ class AuthController extends Controller
     public function __construct()
     {
         $this->middleware('guest', ['except' => 'getLogout']);
+        
     }
 
     /**
