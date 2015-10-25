@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="ina">
-<head>
-
-<!-- Meta information -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+@extends('layout.master')
 
 <!-- Title-->
- <title>{{ $page_title or "7 POS" }}</title>
+//@section('title', '.{{ $page_title or "7 POS" }}.')
 
 <!-- Favicons -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ asset("/core/assets/ico/apple-touch-icon-144-precomposed.png") }}">
@@ -27,7 +21,9 @@
 <link type="text/css" rel="alternate stylesheet" media="screen" title="style3" href="{{ asset("/core/assets/css/styleTheme3.css") }}" />
 <link type="text/css" rel="alternate stylesheet" media="screen" title="style4" href="{{ asset("/core/assets/css/styleTheme4.css") }}" />
 
-</head>
+
+
+@section('content')
 <body class="leftMenu nav-collapse">
 <div id="wrapper">
 		<!--
@@ -1355,4 +1351,5 @@
 	});
 </script>
 </body>
+@endsection
 </html>

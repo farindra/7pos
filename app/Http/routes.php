@@ -28,8 +28,8 @@ Route::controllers([
 //API Route
 Route::group(['prefix'=>'/api'],function(){
 	 //angular route
-	Route::post('login/auth','AuthController@Login');
-	Route::get('login/destroy','AuthController@Logout');
+	Route::post('login/auth','Auth\AuthController@postLogin');
+	Route::get('login/destroy','Auth\AuthController@Logout');
 });
 
 
@@ -39,14 +39,14 @@ Route::group(['prefix'=>'/api'],function(){
 
 
 //-----------------ADMIN ROUTE ---------------BEGIN
-/*Route::get('admin', ['middleware' => 'auth',  function () {
+Route::get('admin', ['middleware' => 'auth',  function () {
     return view('admin');
 }]);
-*/
-Route::get('admin',  function () {
+
+/*Route::get('admin',  function () {
     return View::make('admin');
 });
-
+*/
 //-----------------ADMIN ROUTE ---------------END
 
 
@@ -54,6 +54,6 @@ Route::get('admin',  function () {
 
 //-----------------FRONTEND ROUTE ---------------BEGIN
 Route::get('/', function () {
-    return view('front');
+    return view('auth/login');
 });
 //-----------------FRONTEND ROUTE ---------------END
