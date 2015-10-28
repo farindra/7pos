@@ -13,7 +13,8 @@
 //-----------------MASTER ROUTE---------------BEGIN
 // Authentication routes...
 Route::get('login', 'Auth\AuthController@getLogin');
-Route::post('login', 'Auth\AuthController@postLogin');
+Route::post('login', 'Auth\UserController@Login');
+//Route::post('login', 'Auth\AuthController@Login');
 Route::get('logout', 'Auth\AuthController@getLogout');
 
 // Registration routes...
@@ -42,6 +43,16 @@ Route::group(['prefix'=>'/api'],function(){
 Route::get('admin', ['middleware' => 'auth',  function () {
     return view('admin');
 }]);
+
+Route::get('home', ['middleware' => 'auth',  function () {
+    return view('admin');
+}]);
+
+Route::match(['get','post','put'],'ceklogin',  function () {
+    return View::make('ceklogin')->with(['email'=>$email,'password'=>$password]);
+	//return 'bego';
+});
+
 
 /*Route::get('admin',  function () {
     return View::make('admin');

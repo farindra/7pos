@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use Auth;
+use Input;
 use App\User;
 use Validator;
 use App\Http\Controllers\Controller;
@@ -79,10 +80,10 @@ class AuthController extends Controller
     }
 
     public function Login(){
-        if(Auth::attempt(Input::only('username','password'))){
-            return Auth::user();
+        if(Auth::attempt(Input::only('email','password'))){
+            return 'pass';
         }else{
-            return 'invalid username/pass combo';
+            return 'invalid email/pass combo';
         }
     }
      

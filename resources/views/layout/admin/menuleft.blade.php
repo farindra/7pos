@@ -1,4 +1,4 @@
-
+		<nav id="menu" data-search="close">
 				<ul>
 						<li><span><i class="icon  fa fa-laptop"></i> Dashboard</span>
 								<ul>

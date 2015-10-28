@@ -1,4 +1,4 @@
-
+			<div id="nav">
 				<div id="nav-title">
 					<h3><strong>Hi</strong>, Nutprawee</h3>
 				</div>
@@ -142,4 +142,4 @@
 						
 				</div>
 				<!-- //nav-scroller-->
-		
+			</div>

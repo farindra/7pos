@@ -6,10 +6,6 @@
    {{ $page_title or "7 POS" }}
 @endsection
 
-@section('meta')
-   <meta name="csrf-token" content="{{ csrf_token() }}" />
-@endsection
-
 <!--css-->
 @section('topcss')
 	@include('/layout/admin/topcss')
@@ -35,7 +31,15 @@
 			<span>Checking...</span>
 	</div>
 
-	
+	@if (count($errors) > 0)
+	    <div class="alert alert-danger">
+	        <ul>
+	            @foreach ($errors->all() as $error)
+	                <li>{{ $error }}</li>
+	            @endforeach
+	        </ul>
+	    </div>
+	@endif
 	
 @endsection
 @section('content')
@@ -46,25 +50,14 @@
 								<div class="account-wall">
 										<section class="align-lg-center">
 										<div class="site-logo"></div>
-										<h1 class="login-title"><span>wel</span>come <small> 7 POS Ver. 1.1</small></h1>
+										<h1 class="login-title"><span>wel</span>come <small> CAPLET   Admin HTML Themes Version 1.1.3</small></h1>
 										</section>
-
-										<!-- @if (count($errors) > 0)
-										    <div class="alert alert-danger">
-										        <ul>
-										            @foreach ($errors->all() as $error)
-										                <li>{{ $error }}</li>
-										            @endforeach
-										        </ul>
-										    </div>
-										@endif -->
-										<form id="form-signin" class="form-signin" method="POST">
-											
+										<form id="form-signin" class="form-signin" method="POST" action="/login">
 											{!! csrf_field() !!}
 												<section>
 														<div class="input-group">
 																<div class="input-group-addon"><i class="fa fa-user"></i></div>
-																<input  type="email" class="form-control" name="email" placeholder="email" value="{{ old('email') }}">
+																<input  type="text" class="form-control" name="email" placeholder="email" value="{{ old('email') }}">
 														</div>
 														<div class="input-group">
 																<div class="input-group-addon"><i class="fa fa-key"></i></div>
@@ -82,7 +75,7 @@
 												<span class="or" data-text="Or"></span>
 												<button class="btn btn-lg  btn-inverse btn-block" type="button"> New account </button>
 										</form>
-										<a href="#" class="footer-link">&copy; farindra 2015 &trade; </a>
+										<a href="#" class="footer-link">&copy; 2014 ziceinclude &trade; </a>
 								</div>	
 								<!-- //account-wall-->
 								
@@ -142,13 +135,6 @@
 						}, 500);
 						main.addClass("slideDown");		
 						
-						 $.ajaxSetup({
-						        headers: {
-						            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-						        }
-						    });
-
-
 						// send username and password to php check login
 						$.ajax({
 							url: "login", data: $(this).serialize(), type: "POST", dataType: 'json',
@@ -160,20 +146,8 @@
 									 }
 									 setTimeout(function () { $("#loading-top span").text("Yes, account is access...") }, 500);
 									 setTimeout(function () { $("#loading-top span").text("Redirect to account page...")  }, 1500);
-									 setTimeout( "window.location.href='/admin'", 3100 );
+									 setTimeout( "window.location.href='dashboard.html'", 3100 );
 							}
-							 /* success: function(e){
-							  	setTimeout(function () { main.removeClass("slideDown") }, 3000);
-							    console.log(e);
-							    setTimeout(function () { $("#loading-top span").text("Redirect to account page...")  }, 1500);
-									 setTimeout( "window.location.href='/admin'", 3100 );
-							    //$.notific8(data.status,{ life:5000,horizontalEdge:"bottom", theme:"danger" ,heading:" ERROR :); "});
-							  },
-							  error: function(e){
-							  	setTimeout(function () { main.removeClass("slideDown") }, 500);
-							    console.log(e);
-							    //$.notific8(data.status,{ life:5000,horizontalEdge:"bottom", theme:"danger" ,heading:" ERROR :); "});
-							  }*/
 						});	
 				
 				});

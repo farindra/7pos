@@ -1,3 +1,4 @@
+		<div class="widget-top-search">
 			<span class="icon"><a href="#" class="close-header-search"><i class="fa fa-times"></i></a></span>
 			<form id="top-search">
 					<h2><strong>Quick</strong> Search</h2>
@@ -10,4 +11,4 @@
 							</span>
 					</div>
 			</form>
-		
+		</div>

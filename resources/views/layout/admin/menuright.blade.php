@@ -1,4 +1,4 @@
-
+		<nav id="menu-right">    
 				<ul>
 						<li class="Label label-lg">Theme color</li>
 						<li>
@@ -338,4 +338,5 @@
 								</span>
 						</li>	
 				</ul>
+		</nav>
 		

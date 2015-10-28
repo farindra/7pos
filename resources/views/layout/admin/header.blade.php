@@ -1,6 +1,6 @@
 <!-- Main Header -->
 
-	
+			<div id="header">
 				<div class="logo-area clearfix">
 						<a href="#" class="logo"></a>
 				</div>
@@ -64,5 +64,6 @@
 						</ul>
 				</div>
 				<!-- //tools-bar-->
+			</div>
 				
 		
