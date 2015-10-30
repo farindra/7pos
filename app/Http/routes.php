@@ -31,6 +31,9 @@ Route::group(['prefix'=>'/api'],function(){
 	 //angular route
 	Route::post('login/auth','Auth\AuthController@postLogin');
 	Route::get('login/destroy','Auth\AuthController@Logout');
+
+    //user exist fields check
+    Route::get('existuser', 'Auth\UserController@cekexistuser');
 });
 
 
@@ -68,3 +71,5 @@ Route::get('/', function () {
     return view('auth/login');
 });
 //-----------------FRONTEND ROUTE ---------------END
+
+//-----------------API ROUTE ---------------BEGIN

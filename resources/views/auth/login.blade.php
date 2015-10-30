@@ -1,7 +1,6 @@
 
 @extends('layout.master',['class_body'=> 'full-lg'])
 
-<!-- Title-->
 @section('title')
    {{ $page_title or "7 POS" }}
 @endsection
@@ -10,34 +9,25 @@
    <meta name="csrf-token" content="{{ csrf_token() }}" />
 @endsection
 
-<!--css-->
 @section('topcss')
 	@include('/layout/admin/topcss')
 @endsection
 
-<!--style-->
 @section('topstyle')
 	@include('/layout/admin/topstyle ')
 @endsection
 
-<!--script-->
 @section('topscript')
 	@include('/layout/admin/topscript')
 @endsection
 
-<!--
-<body class="full-lg">
-<div id="wrapper">
--->
 @section('first')
 	<div id="loading-top">
 			<div id="canvas_loading"></div>
 			<span>Checking...</span>
 	</div>
-
-	
-	
 @endsection
+
 @section('content')
 		<div class="container">
 				<div class="row">
@@ -46,7 +36,7 @@
 								<div class="account-wall">
 										<section class="align-lg-center">
 										<div class="site-logo"></div>
-										<h1 class="login-title"><span>wel</span>come <small> 7 POS Ver. 1.1</small></h1>
+										<h1 class="login-title"><span>wel</span>come <small> 7 POS Ver. 1.0</small></h1>
 										</section>
 
 										<!-- @if (count($errors) > 0)
@@ -96,11 +86,6 @@
 @endsection
 <!-- //main-->
 
-<!--
-////////////////////////////////////////////////////////////////////////
-//////////     JAVASCRIPT  LIBRARY     //////////
-/////////////////////////////////////////////////////////////////////
--->
 @section('anotherscript')	
 <script type="text/javascript">
 	$(function() {

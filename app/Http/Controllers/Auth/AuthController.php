@@ -79,7 +79,7 @@ class AuthController extends Controller
         ]);
     }
 
-    public function Login(){
+   /* public function Login(){
         if(Auth::attempt(Input::only('email','password'))){
             return 'pass';
         }else{
@@ -90,5 +90,5 @@ class AuthController extends Controller
     public Function Logout(){
         Auth::logout();
         return 'logged out';
-    }
+    }*/
 }
